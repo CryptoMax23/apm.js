@@ -23,3 +23,18 @@ Requires IPFS and an Aragon devchain running. IPFS can be started via the IPFS d
 To test:
 
 `npm test`
+
+## Usage
+
+After installing the package, you can import and initialize it as follows:
+
+```js
+import APM from '@aragon/apm'
+
+// Example: connect to a local Aragon devchain
+const apm = new APM('http://localhost:8545')
+
+---
+
+C’est une amélioration mineure, propre et utile, donc parfaite pour une première pull request.  
+Tu veux que je t’écrive le titre et la description du PR associés à ça aussi ?
